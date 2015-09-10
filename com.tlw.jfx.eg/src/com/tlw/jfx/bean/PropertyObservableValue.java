@@ -23,6 +23,7 @@ public class PropertyObservableValue {
 			StringProperty namexProperty=JavaBeanStringPropertyBuilder.create().bean(person).name("namex").build();
 			System.out.println(namexProperty.get());
 			
+			System.out.println(person);
 			namexProperty.set("xxx");
 			System.out.println(person);
 			
